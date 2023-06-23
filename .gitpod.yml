@@ -1,4 +1,6 @@
 image: ghcr.io/vvv-school/gitpod:latest
+additionalRepositories:
+- url: https://github.com/robotology/icub-main
 ports:
 - port: 6080
   onOpen: notify
