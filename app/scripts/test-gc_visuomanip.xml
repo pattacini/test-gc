@@ -1,6 +1,6 @@
 <application>
 
-  <name>Test gravityCompensator</name>
+  <name>Test gravityCompensator (Visuomanip)</name>
 
   <module>
       <name>yarplogger</name>
@@ -10,7 +10,7 @@
 
   <module>
       <name>gzserver</name>
-      <parameters>test-gc.sdf</parameters>
+      <parameters>test-gc_visuomanip.sdf</parameters>
       <dependencies>
          <port timeout="20">/yarplogger</port>
       </dependencies>
